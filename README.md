@@ -4,7 +4,7 @@ Prueba: **DESARROLLADOR JR**
 
 Deadline: **1 día**
 
-Nombre: 
+Nombre: **Adrián Alejandro Ramírez Cruz**
 
 ---
 
@@ -95,21 +95,21 @@ Trabaja en SQL Server y realiza las siguientes consultas basadas en la tabla `cc
 1. **Consulta del usuario que más tiempo ha estado logueado** (10 puntos):
    - Escribe una consulta que devuelva el usuario que ha pasado más tiempo logueado. Para calcular el tiempo de logueo, empareja cada "login" (TipoMov = 1) con su correspondiente "logout" (TipoMov = 0) y suma el tiempo total por usuario.
 
-   Ejemplo de respuesta:  
-   - `User_id`: 92  
+   Ejemplo de respuesta:
+   - `User_id`: 92
    - Tiempo total: 361 días, 12 horas, 51 minutos, 8 segundos
 
 2. **Consulta del usuario que menos tiempo ha estado logueado** (10 puntos):
    - Escribe una consulta similar a la anterior, pero que devuelva el usuario que ha pasado menos tiempo logueado.
 
-   Ejemplo de respuesta:  
-   - `User_id`: 90  
+   Ejemplo de respuesta:
+   - `User_id`: 90
    - Tiempo total: 244 días, 43 minutos, 15 segundos
 
 3. **Promedio de logueo por mes** (10 puntos):
    - Escribe una consulta que calcule el tiempo promedio de logueo por usuario en cada mes.
 
-   Ejemplo de respuesta:  
+   Ejemplo de respuesta:
    - Usuario 70 en enero 2023: 3 días, 14 horas, 1 minuto, 16 segundos
 
 ---
