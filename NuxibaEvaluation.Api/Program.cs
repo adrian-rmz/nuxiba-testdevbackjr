@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using NuxibaEvaluation.Api.Data;
+using NuxibaEvaluation.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<CsvReportService>();
 
 var app = builder.Build();
 
